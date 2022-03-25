@@ -1,0 +1,64 @@
+.ourtrainer-container{
+    display:flex;
+    flex-direction:column;
+    margin-top:0px !important;
+    background: linear-gradient( to bottom right,#654321, #302113);
+    overflow:hidden;
+    text-shadow: 1px 2px 6px rgba(0, 0, 0), 1px 2px 4px rgba(0, 0, 0);
+} 
+
+.ourtrainer-main{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:40px !important;
+    margin-top: 40px !important; 
+    justify-content: space-around;
+}
+
+.ourtrainer-title{
+    align-self: center;
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 0px !important;
+    border: none;   
+}
+
+.ourtrainer-eachtrainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition-timing-function: ease-in;
+    transition: all 1s;
+}
+
+.ourtrainer-eachtrainer:hover{
+    transform: scale(1.08);
+}
+
+.ourtrainer--picture{
+    border-radius: 50%;
+    width: 350px;
+    height: 320px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0), 1px 2px 4px rgba(0, 0, 0);
+}
+
+.ourtrainer--trainername{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: left;
+    font-family: Avenir;
+    letter-spacing: 0px;
+    font-size: 30px;
+    color: white;
+}
+
+.ourtrainer--trainerspeciality{
+    margin-top: 1px;
+    font-family: Avenir;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: white;
+}

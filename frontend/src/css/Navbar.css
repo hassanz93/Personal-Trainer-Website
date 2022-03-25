@@ -1,0 +1,87 @@
+.nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    text-shadow: 1px 2px 6px rgba(0, 0, 0), 1px 2px 4px rgba(0, 0, 0);
+    height: 100px;
+   
+
+}
+
+.nav_wood {
+    background-color: #171009;
+    z-index: 3;
+    
+}
+
+.nav-components {
+    display: flex;
+    margin-top: 25px;
+    width: 50%;
+    margin: auto;
+
+}
+
+.nav-items {
+    color: wheat;
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 10px;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav-items:hover {
+    background-color: wheat;
+    color: black;
+    transform: scale(1.05);
+    text-shadow: none;
+}
+
+.logo {
+    margin-right: 200px;
+    color: wheat;
+    display: flex;
+    text-decoration: none;
+    width: 20%;
+    height: auto;
+    padding-left: 10px;
+}
+
+
+.register {
+    display: flex;
+    color: wheat;
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 0.2vw;
+    text-decoration: none;
+    width: auto;
+    height: 20px;
+    margin-top: 25px;
+    margin-right: 50px;
+    padding: 10px;
+    transition-timing-function: ease-in;
+    transition: all 1s;
+}
+
+.register_wood {
+    background-color: wheat;
+    color: #111;
+    text-shadow: none;
+}
+
+.register:hover {
+    color: #111;
+    background-color: wheat;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0), 1px 2px 4px rgba(0, 0, 0);
+    transform: scale(1.08);
+    text-shadow: none;
+
+}

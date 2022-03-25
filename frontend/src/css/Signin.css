@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shippori+Antique+B1&display=swap');
+
+
+.signin-card{
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.308), 1px 2px 4px rgba(0, 0, 0, 0.301);
+    width: 100%;
+    height: 768px;
+    background-color: linear;
+    background-size: cover;
+    z-index: 1;
+    object-fit: contain;
+    background: transparent linear-gradient(305deg, #171009 0%, #171009 25%, #823200 68%, #68411D 91%, #654321 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.signin-card2{
+    z-index: 2;
+    overflow: hidden;
+    position: relative;
+    width: 417px;
+    height: 580px;
+    box-shadow: 0px 0px 8px #000000;
+    border-radius: 2vw;
+    opacity: 1;
+    float: right;
+    margin-right: 150px;
+    margin-top: 100px;
+    font-family: 'Shippori Antique B1', sans-serif;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+.signin-Title{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 53px;
+    font-weight:bolder;
+    letter-spacing: 3px;
+    color: #654321;
+    opacity: 1;
+}
+
+.signin-Text{
+    width: 400px;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #823200;
+    padding-top:20px;
+    margin: left 15px;
+    font-size: 20px;
+}
+
+.signin-form {
+    position: relative;
+    left: 19px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-top: 5px
+}
+.signin-Input{
+    margin-top: 15px;
+    width: 90% !important;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #654321;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 15px;
+    color: #171009;
+    text-align: center;
+    margin-bottom: 10px;
+    transition-timing-function: ease-in;
+    transition: all 1s; 
+}
+
+.signin-Input:hover{
+    transform: scale(1.04);
+}
+
+.signin-ligne{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.signin-join-Now{
+    cursor: pointer;
+    object-fit: contain;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 0.5vw;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:1rem;
+    background: transparent linear-gradient(304deg, #302113 0%, #904414 100%) 0% 0% no-repeat padding-box;
+    width: 139px;
+    height: 40px;
+    transition-timing-function: ease-in;
+    transition: all 1s;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.signin-join-Now:hover{
+    background: transparent linear-gradient(56deg, #302113 0%, #904414 100%) 0% 0% no-repeat padding-box;
+    transform: scale(1.08);
+    box-shadow: 1px 2px 6px rgba(0, 0, 0), 1px 2px 4px rgba(0, 0, 0);
+}
+
+.pls-rgister {
+    flex-direction: row;
+    padding-top: 20px;
+    width: 218px;
+    height: 69px;
+    text-align: left;
+    font-size: 10px;
+    color: #654321;
+    opacity: 1;
+}
+
+.alert-danger{
+    color: #823200;
+    margin-bottom:0px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    border: 1px solid  #823200;
+    width: 355px;
+    padding: 5px
+}
+
+.singn-register-block{
+    color: #654321;
+    margin-left: -40px;
+}
+
+.sign-register-link{
+    text-decoration:underline;
+    color: #654321;
+    transition-timing-function: ease-in;
+    transition: all 1s;
+}
+
+.register-link:hover{
+    color: #171009;
+}
+
+.pls-rgister {
+    flex-direction: row;
+    padding-top: 20px;
+    width: 218px;
+    height: 69px;
+    text-align: left;
+    font-size: 15px;
+    color: #654321;
+    opacity: 1;
+}
+
+
+.signin-img {
+    z-index: 2;
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    opacity: 1;
+    margin-left: 22px;
+    padding-top: -10px;
+}

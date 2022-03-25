@@ -1,0 +1,80 @@
+.comment-box{
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height:auto;
+    border: none;
+    padding-left: 15px;
+    background-color:wheat;
+    border: 0.5px solid black;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0), 1px 2px 4px rgba(0, 0, 0);
+    object-fit: contain;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.comment--collectionpictures{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.comment--picture{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+}
+
+.comment--sidepicture{
+    width: 40px;
+    height: 40px;
+    padding-right: 15px;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.comment--linedivider{
+    margin-top:0px; 
+    margin-bottom:10px;
+}
+
+.comment--commentname{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom:0px;
+    margin-top:0px;
+    color: #171009;
+}
+
+.comment--message{
+    color: #111;
+    font-size: 15px;
+}
+
+.comment-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.comment-title{
+    align-self: center;
+    font-size: 45px;
+}
+
+.comment-container{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.italic{
+    color: rgb(214, 163, 68);
+    font-size: 15px;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0), 1px 1px 1px rgba(0, 0, 0);
+
+}

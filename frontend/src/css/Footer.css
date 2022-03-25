@@ -1,0 +1,130 @@
+.nav-items{
+    margin-left: 0px !important;
+}
+
+.Footer--body{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 270px;
+    background: linear-gradient(#171009, #3b2814);
+    color:wheat;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.CompanyName{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    height: 186px;
+}
+
+.CompanyName--body{
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.Soultions{
+    display:flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.Solutions--link{
+    align-items:start;
+}
+
+.Contacts--lists{
+    line-height: 2.0;
+}
+
+.CopyRight{
+    background-color: #171009;
+    color: wheat;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Subscribe{
+    background: linear-gradient(#3b2814, #171009) 0% 0% no-repeat padding-box;
+    color:wheat;
+    display:flex;
+    justify-content:center;   
+    padding-top: 50px;
+    padding: 20px;
+}
+
+.Subscribe--text{
+    margin-right: 50px;
+}
+
+.Subscribe--textbox{
+    width: 457px;
+    height: 53px;
+    margin-right: 15px;
+    padding-left: 20px;
+    transition-timing-function: ease-in;
+    transition: all 1s;
+}
+
+.Subscribe--textbox:hover{
+    transform: scale(1.02);
+}
+
+.Subscribe--textbox:focus{
+    border: none;
+    outline: none;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0), 1px 2px 4px rgba(0, 0, 0);
+}
+
+.Subscribe--confirm{
+    width: 185px;
+    font-size: 15px;
+    height: 58px;
+    background-color: rgba(219, 185, 123, 0.95);
+    color:#171009;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    cursor: pointer;
+    transition-timing-function: ease-in;
+    transition: all 1s;
+}
+
+.Subscribe--confirm:hover{
+    transform: scale(1.05);
+    background-color: rgb(216, 193, 151);
+    box-shadow: 1px 2px 6px rgba(0, 0, 0), 1px 2px 4px rgba(0, 0, 0);
+}
+
+.Socialmedia{
+    width: 185px;
+    display: flex;
+    justify-content: space-evenly;
+    align-self:center;
+    margin-left: 20px;
+}
+
+.Socialimage{
+    width: 35px;
+}
+
+.Socialimage:hover{
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius: 50%;
+}
+
+.Footer{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

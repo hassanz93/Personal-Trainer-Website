@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shippori+Antique+B1&display=swap');
+
+.register-card{
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 768px;
+    margin-top: -35px !important;
+    background-size: cover;
+    z-index: 1;
+    object-fit: contain;
+    background: transparent linear-gradient(305deg, #171009 0%, #171009 25%, #823200 68%, #68411D 91%, #654321 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+
+.register-Input-name{
+    margin-right: 13px;
+    margin-top: 15px;
+    width: 42% !important;
+    padding-left: 5px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #654321;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 15px;
+    color: #171009;
+    text-align: center;
+    transition-timing-function: ease-in;
+    transition: all 1s; 
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.register-Input-phone{
+    margin-right: 13px;
+    margin-top: 15px;
+    width: 170px !important;
+    padding-left: 5px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #654321;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 15px;
+    color: #171009;
+    text-align: center;
+    transition-timing-function: ease-in;
+    transition: all 1s; 
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+input[type="file" i] {
+    appearance:inherit;
+    background-color: #904414;
+    cursor: pointer;
+    align-items: baseline;
+    color: inherit;
+    /* text-overflow: ellipsis; */
+    white-space: pre;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+    overflow: hidden !important;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+hr{
+    width:400px;
+align-self: center;
+}
+select{
+    margin-right: 13px;
+    margin-top: 15px;
+    width: 175px !important;
+    padding-left: 5px;
+    height: 44px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #654321;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 15px;
+    color: #171009;
+    text-align: center;
+    transition-timing-function: ease-in;
+    transition: all 1s; 
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+/* .userType{
+    width: 30%;
+    height: 40px;
+} */
+.register-card2{
+    width: 480px;
+    height: 580px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 0px 12px #000000A3;
+    z-index: 2;
+    overflow: hidden;
+    position: relative;
+    border-radius: 16px;
+    opacity: 1;
+    float: right;
+    margin-right: 150px;
+    margin-top: px;
+    font-family: 'Shippori Antique B1', sans-serif;
+
+}
+
+.register-Title{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 53px;
+    font-weight:bolder;
+    letter-spacing: 3px;
+    color: #654321;
+    opacity: 1;
+}
+
+.register-Text{
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #823200;
+    padding: top 10px;
+    font-size: 20px;
+}
+
+.alert-danger1{
+    color: #823200;
+    margin-bottom:0px;
+    margin-top: 20px;
+    margin-left: 58px !important;
+    font-weight: bold;
+    border: 1px solid  #823200;
+    width: 355px;
+    padding: 5px
+}
+
+.register-form {
+    position: relative;
+    left: 19px;
+    padding-bottom: 15px;
+    margin-top:0px;
+    
+}
+.register-Input{
+    width: 90% !important;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #654321;
+    border-radius: 5px;
+    opacity: 1;
+    font-size: 15px;
+    color: #171009;
+    text-align: center;
+    transition-timing-function: ease-in;
+    transition: all 1s; 
+}
+
+.register-Input:hover{
+    transform: scale(1.04);
+}
+
+.register-ligne{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.register-join-Now{
+    cursor: pointer;
+    object-fit: contain;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 0.5vw;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:1rem;
+    background: transparent linear-gradient(304deg, #302113 0%, #904414 100%) 0% 0% no-repeat padding-box;
+    width: 139px;
+    height: 40px;
+    transition-timing-function: ease-in;
+    transition: all 1s;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.register-join-Now:hover{
+    background: transparent linear-gradient(56deg, #302113 0%, #904414 100%) 0% 0% no-repeat padding-box;
+    transform: scale(1.08);
+    box-shadow: 1px 2px 6px rgba(0, 0, 0), 1px 2px 4px rgba(0, 0, 0);
+}
+
+.pls-rgister {
+    flex-direction: row;
+    padding-top: 20px;
+    width: 218px;
+    height: 69px;
+    text-align: left;
+    font-size: 10px;
+    color: #654321;
+    opacity: 1;
+}
+
+.register-register-block{
+    color: #654321;
+    float: left;
+}
+
+.register-register-link{
+    text-decoration:underline;
+    color: #654321;
+    transition-timing-function: ease-in;
+    transition: all 1s;
+}
+
+.register-link:hover{
+    color: #171009;
+}
+
+.pls-rgister {
+    flex-direction: row;
+    padding-top: 20px;
+    width: 218px;
+    height: 69px;
+    text-align: left;
+    font-size: 15px;
+    color: #654321;
+    opacity: 1;
+}
+
+
+.register-img {
+    z-index: 2;
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    opacity: 1;
+    margin-left: 22px;
+    padding-top: -10px;
+}
+
+/* c est la partie radio button */
+/*/////////////////////////////*/
+
+.radio{
+  margin-top: 10px;
+  align-self: center;
+}
+
+.form-form{
+    margin-right: 0px;
+    padding-top: 130px !important;
+}
+
+.age-trainer{
+    display: flex;
+    width: 500px;
+
+}
+
+.hide{
+    display: none;
+}
+
